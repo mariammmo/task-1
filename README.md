@@ -25,9 +25,5 @@ The model can classify an input image into one of the following 7 diseases:
 
 ---
 
-## 🚀 How to Run
 
-### 1️⃣ Clone the repo
-```bash
-git clone https://github.com/yourusername/teeth-disease-classifier.git
-cd teeth-disease-classifier
+
