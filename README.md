@@ -1,10 +1,33 @@
-# 🩺 Teeth Disease Classification using Deep Learning
-### Overview
-It utilizes pretrained models like EfficientNetB7 and InceptionResNetV2, enhanced with data augmentation and class balancing techniques. An interactive Streamlit app is also provided for real-time predictions.
+# 🦷 Teeth Disease Classifier
 
-###  Features
-- Classification of 7 teeth diseases
-- A CNN Model built from scratch
+A Deep Learning project that classifies oral diseases using **Convolutional Neural Networks (CNNs)** and deploys the model in a **Streamlit web application**.
 
-### 📊 Dataset
-The dataset consists of 7 distinct teeth diseases; including training, validation and testing sets.
+---
+
+## 📌 Supported Classes
+The model can classify an input image into one of the following 7 diseases:
+
+1. Canker Sores (CaS)  
+2. Cold Sores (CoS)  
+3. Gum Disease (Gum)  
+4. Mouth Cancer (MC)  
+5. Oral Cancer (OC)  
+6. Oral Lichen Planus (OLP)  
+7. Oral Thrush (OT)  
+
+---
+
+## ⚙️ Tech Stack
+- Python 🐍  
+- TensorFlow / Keras  
+- NumPy, Pandas, Matplotlib  
+- Streamlit (deployment)  
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/yourusername/teeth-disease-classifier.git
+cd teeth-disease-classifier
